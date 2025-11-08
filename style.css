@@ -1,0 +1,18 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #011102; /* Цвет фона веб-страницы */
+    color: #33ff00; /* Цвет основного текста */ 
+}
+h1 {
+   
+    color: #00ff00; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h1:hover{animation: color-change 3s infinite;}
+@keyframes color-change {
+  0%   { color: #00ff00; }
+  50%  { color: rgb(45, 116, 17); }
+  100% { color: #00ff00; }
+}
